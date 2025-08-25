@@ -11,6 +11,14 @@ A minimal Retrieval-Augmented Generation setup that:
 
 ---
 
+## Why this Exists
+
+[Robin Cole](https://github.com/robmarkcole) is one of the luminaries of satellite imagery analysis and has a [repository](https://github.com/satellite-image-deep-learning/techniques) collating over 1700 other repositories in this field. I am a single developer with a day job so going through the entire list would be not only temporally impossible but attempting to do so might make my brain melt out of my ears. To avert this brain liquefaction disaster and to show recruiters that what little is left of said grey matter might be worth employing, like all good venture capitalists, I decided AI was the solution. 
+
+A RAG would be able to ingest all of the documentation and code for Robin’s repositories and be able to direct me to the ones I needed whenever I hit a roadblock in my own geospatial analysis workflows. [Abhishek Gupta](https://devblogs.microsoft.com/cosmosdb/build-a-rag-application-with-langchain-and-local-llms-powered-by-ollama/) wrote this fantastic quick start article for getting a simple RAG working based off of local documents. I took a “if it ain’t broke” mindset and used this as a blueprint to set up the basic framework for this project. This article can walk you through setting up docker + the cosmos db emulator + Ollama if you don’t have those yet. 
+
+I want to say thank you again to to Robin and Abhishek as without them I wouldn't have had a problem and a quick solution to said problem. 
+
 ## Features
 
 - **Incremental ingest**  
